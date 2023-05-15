@@ -1,0 +1,95 @@
+body {
+    margin: 0 0;
+    font-family: sans-serif;
+    background-color: #efefef;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    padding: 100px;
+    font-size: 40px;
+    }
+    
+header a:hover {
+        color: rgb(255, 145, 0);
+        text-decoration: underline;
+    }
+    
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #745D72;
+    }
+    
+header p {
+        margin: 0;
+        font-weight: lighter;
+    }
+    
+header nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+    }
+
+.griglia-bio h1 {
+    font-size: 80px;
+    margin: 0%;
+    color: #745D72;
+    font-weight: lighter;
+}
+
+.griglia-bio p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+.griglia-bio{
+    display: grid;
+    grid-template-columns: 66fr 33fr;
+    gap: 20px;
+    margin: 100px;
+}
+
+.griglia-img img {
+    width: 400px;
+    height: auto;
+}
+
+.galleria-immagini {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px;
+}
+
+.galleria-immagini img {
+    width: 400px;
+    height: 550px; 
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #745D72;
+}
+
+footer p {
+    border-top: 1px solid rgba(red, green, blue, alpha);
+    margin: 0;
+    padding: 20px 0
+    font-s 14 px;
+    color: #fff;
+}
+
+footer div ul {
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}

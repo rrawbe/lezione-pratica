@@ -1,0 +1,127 @@
+
+body {
+    margin: 0 0;
+    font-family: sans-serif;
+    background-color: #efefef;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20 px;
+    color: #745D72;
+}
+
+header a {
+text-decoration: none;
+color: #fff;
+padding: 100px;
+font-size: 40px;
+}
+
+header a:hover {
+    color: rgb(255, 145, 0);
+    text-decoration: underline;
+}
+
+header a.attivo {
+    font-weight:lighter;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #745D72;
+}
+
+header p {
+    margin: 0;
+    font-weight: lighter;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+section.hero {
+    background:rgba(red, green, blue, alpha);
+    text-align: start;
+    color: #745D72;
+    padding: 200px 100px;    
+}
+
+section.hero h1 {
+    margin: 0;
+    padding: 40px 10px;
+    font-size: 40px;
+    color: rgba(red, green, blue, alpha);
+    font-size: 100px;
+    
+
+}
+
+.grid {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+
+
+main div.card img {
+    border-radius: 0 0;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    
+}
+
+main div img {
+    border-radius: 0 0 ;
+}
+main div.card p {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    
+}
+
+main div.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #745D72;
+}
+
+footer p {
+    border-top: 1px solid rgba(red, green, blue, alpha);
+    margin: 0;
+    padding: 20px 0
+    font-s 14 px;
+    color: #fff;
+}
+
+footer div ul {
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
